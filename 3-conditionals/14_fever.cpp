@@ -4,7 +4,9 @@
 #include <iostream>
 
 int main() {
-  double temp = 98.0;
+  int temperature;
+  std::cout << ("Enter the temperature: ");
+  std::cin >> temperature;
 
   if (temp >= 100) {
     std::cout << "You have a fever. 🤒\n";
