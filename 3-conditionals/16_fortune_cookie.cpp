@@ -5,26 +5,31 @@
 #include <cstdlib>
 
 int main() {
+  #include <iostream>
+#include <cstdlib>
+
+int main() {
+  // Write code here
   srand(time(NULL));
-
-  int fortune = std::rand() % 6;  // Generates a random number that's either 0 or 1
-
-  if (fortune == 0) { 
-    std::cout << "🥠 Don't pursue happiness – create it.\n";
-  }
-  else if (fortune == 1) { 
-    std::cout << "🥠 All things are difficult before they are easy.\n";
-  }
-  else if (fortune == 2) {
-    std::cout << "🥠 The early bird gets the worm, but the second mouse gets the cheese.\n";
-  }
-  else if (fortune == 3) {
-    std::cout << "🥠 Someone in your life needs a letter from you.\n";
-  }
-  else if (fortune == 4) {
+  int num = std::rand() % 51;
+  if (num = 10, 23, 45, 0, 31, 12) {
     std::cout << "🥠 The fortune you search for is in another cookie.\n";
   }
-  else {
-    std::cout << "🥠 Help! I'm being held prisoner in a Chinese bakery!\n";
+  else if (num = 11, 24, 46, 1, 32, 13) {
+    std::cout << "Someone in your life needs a letter from you.\n";
   }
+  else if (num = 19, 25, 47, 2, 33, 14) {
+    std::cout << "Help! I'm being held prisoner in a Chinese bakery!\n";
+  }
+  else if (num = 16, 26, 48, 3, 34, 15) {
+    std::cout << "Don't pursue happiness – create it.\n";
+  }
+  else if (num = 18, 27, 49, 4, 35 , 9) {
+    std::cout << "All things are difficult before they are easy.\n";
+  }
+  else {
+    std::cout << "The early bird gets the worm, but the second mouse gets the cheese.\n";
+  }
+  std::cout << "Lucky numbers: 10 23 45 0 31 12";
+}  
 }
